@@ -196,6 +196,8 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 header nav ul li {
@@ -265,8 +267,16 @@ aside {
   flex-flow: row wrap;
 }
 
-aside .form {
-  margin-top: 30px;
+.form-description h3{
+  margin:0;
+}
+
+.form-description p{
+  margin-top:15px;
+}
+
+.form {
+  margin-top: 40px;
 }
 
 input[type=text] {
@@ -301,11 +311,11 @@ input[type=button] {
 }
 
 .features h2 {
-  margin-bottom: 60px;
+  margin: 0;
 }
 
 .features article {
-  width: 63%;
+  width: 60%;
   margin: 30px 0;
 }
 
@@ -350,6 +360,10 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
+.content-wrapper h2 {
+  margin: 0;
+}
+
 .contact-section {
   background-color: #2a423a;
   display: flex;
@@ -381,7 +395,7 @@ input[type=button] {
 }
 
 .faq h2 {
-  margin-bottom: 40px;
+  margin: 0 0 30px 0;
   line-height: 1;
 }
 
@@ -391,6 +405,10 @@ input[type=button] {
 
 .faq-content h4 {
   line-height: 1.333;
+}
+
+.faq-content p {
+  margin: 0;
 }
 
 /* ==========================================================================
@@ -486,9 +504,19 @@ input[type=button] {
   /*Tablet styles here*/
 
   /* General styles */
-  .content-wrapper {
-    max-width: 640px;
-    margin: 100px 0;
+.content-wrapper {
+  max-width: 640px;
+  margin: 100px 0;
+}
+
+h2 {
+  font-size: 2.25em;
+  line-height: 1.333;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.25;
 }
 
   /* HEADER */
@@ -503,8 +531,12 @@ header .content-wrapper {
   justify-content: space-between;
 }
 
-header .header-divider {
+.header-divider {
     display: none;
+}
+
+header figure {
+  width: 30%;
 }
 
 header nav {
@@ -515,8 +547,12 @@ header nav ul {
   justify-content: space-between;
 }
 
-header nav ul li {
-  font-size: 1.125em;
+/* Hero Area */
+
+.hero-area h1 {
+  font-size: 3em;
+  line-height: 1;
+  margin: 0;
 }
 
 /* ASIDE */
@@ -560,8 +596,17 @@ aside .form-description {
   justify-content: space-between;
 }
 
+.reviews h2 {
+  width: 85%;
+}
+
 .reviews article div {
   width: 49%;
+}
+
+.reviews h3 {
+  width: 75%;
+  margin: 0;
 }
 
 /* FOOTER */
@@ -629,8 +674,13 @@ footer .copyright {
   /*Desktop styles here*/
 
 .content-wrapper {
-  max-width: 960px;
+  max-width: 70%;
 }
+
+header figure {
+  width: 10%;
+}
+
 
 /* Hero */
 .hero-area h1 {
