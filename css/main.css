@@ -148,6 +148,14 @@ textarea {
      margin: 50px 0;
    }
 
+   img {
+	width: 100%;
+}
+
+figure {
+        margin: 0;
+}
+
 /* ------------ BASE HEADER - FOOTER STYLES ------------ */
 
 header,
@@ -244,10 +252,13 @@ footer .copyright {
 
 /* Hero Area */
 
-.hero-area{
+.hero-area {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
+  background: url('../img/hero.jpg') center no-repeat #333;
+  background-size: cover;
 }
 
 .hero-area h1 {
@@ -255,6 +266,8 @@ footer .copyright {
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.2;
+  margin-bottom: 280px;
+  margin-top: 0;
 }
 
 /* ASIDE */
@@ -308,10 +321,13 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background: url('../img/features.jpg') center no-repeat #333;
+  background-size: cover;
 }
 
 .features h2 {
   margin: 0;
+  width: 92%;
 }
 
 .features article {
@@ -343,6 +359,10 @@ input[type=button] {
 .reviews h2 {
   margin-bottom: 40px;
   line-height: 1;
+}
+
+.reviews figure {
+  padding-top: 20px;
 }
 
 .reviews h3 {
@@ -546,13 +566,13 @@ header nav ul{
   justify-content: space-between;
 }
 
-
 /* Hero Area */
 
 .hero-area h1 {
   font-size: 3em;
   line-height: 1;
-  margin: 0;
+  margin-bottom: 370px;
+
 }
 
 /* ASIDE */
@@ -587,9 +607,15 @@ aside .content-wrapper {
 }
 
 /* REVIEWS */
-.reviews article {
+
+.reviews .content-wrapper {
   display: flex;
   justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+.reviews figure {
+  width: 48%;
 }
 
 .reviews h2 {
@@ -598,8 +624,8 @@ aside .content-wrapper {
   width: 80%;
 }
 
-.reviews article div {
-  width: 50%;
+.reviews article {
+  width: 48%;
 }
 
 .reviews h3 {
@@ -728,6 +754,12 @@ aside .content-wrapper .form {
 }
 
 /* Reviews */
+
+.reviews .content-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
 .reviews article {
   width: 43%;
   padding: 50px 0;
@@ -735,6 +767,11 @@ aside .content-wrapper .form {
 
 .reviews article div {
   width: 70%;
+}
+
+.reviews figure {
+  width: 45%;
+  margin-top: 50px;
 }
 
 /* Footer */
