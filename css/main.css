@@ -194,10 +194,6 @@ header nav {
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
-  font-size: 1.125em;
-  font-weight: 700;
-  text-transform: uppercase;
-
 }
 
 header nav ul {
@@ -210,6 +206,8 @@ header nav ul {
 
 header nav ul li {
   font-size: 1.125em;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 /* FOOTER */
@@ -592,8 +590,8 @@ header nav {
   width: 20%;
 }
 
-header nav ul{
-  justify-content: space-between;
+header nav ul li {
+  padding: 0 20px;
 }
 
 /* Hero Area */
@@ -681,11 +679,22 @@ footer .content-wrapper {
   margin: 0;
 }
 
+footer h4 {
+  font-size: 1.5em;
+  margin-bottom: 40px;
+}
+
+footer p {
+    line-height: 1.285;
+}
+
 footer .copyright {
   width: 100%;
 }
 
 /* ------------ TABLET STYLES - ABOUT PAGE ------------ */
+
+
 
 .content-wrapper h2 {
   padding-top: 50px;
@@ -719,11 +728,16 @@ footer .copyright {
   width: 45%;
 }
 
+.contact-content h4 {
+  font-size: 1.5em;
+}
+
+
 /* ------------ TABLET STYLES - FAQ PAGE ------------ */
 
 .faq .content-wrapper {
   justify-content: space-between;
-  margin-top: 100px;
+  margin: 100px 0;
 }
 
 .faq h2 {
@@ -740,6 +754,12 @@ footer .copyright {
     width: 100%;
 }
 
+.faq h4,
+.faq p {
+    font-size: .875em;
+    line-height: 1.125;
+}
+
 }
 
 
@@ -754,8 +774,23 @@ header {
   padding: 25px 0;
 }
 
+h2 {
+  font-size: 2.25em;
+}
+
+h3,
+h4 {
+    font-size: 1.875em;
+}
+
+p {
+    font-size: 1.125em;
+    line-height: 1.333;
+}
+
 /* Hero */
 .hero-area h1 {
+  font-size: 3.75em;
   width: 70%;
 }
 
@@ -772,6 +807,7 @@ aside .content-wrapper .form {
 
 .form-description p {
   margin: 20px 0;
+  font-size: 1.125em;
 }
 
 /* Features */
@@ -815,6 +851,10 @@ aside .content-wrapper .form {
   padding: 60px;
 }
 
+footer h4 {
+  font-size: 1.875em;
+}
+
 
 /* ==========================================================================
 About Page
@@ -830,6 +870,15 @@ About Page
     padding-bottom: 57%;
 }
 
+.mission h2,
+.contact-section .content-wrapper h2 {
+    font-size: 3em;
+}
+
+.contact-section h2 {
+  font-size: 3em;
+}
+
 .contact-content {
   padding: 0;
   margin: 0;
@@ -840,6 +889,7 @@ About Page
 }
 
 .contact-content h4 {
+  font-size: 1.875em;
   padding: 40px 0;
   margin: 0;
 }
@@ -854,10 +904,17 @@ FAQ Page
 
 .faq h2 {
   width: 100%;
+  font-size: 3em;
 }
 
 .faq-content {
   margin-bottom: 40px;
+}
+
+.faq h4,
+.faq p {
+    font-size: 1.125em;
+    line-height: 1;
 }
 
 }
