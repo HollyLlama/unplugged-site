@@ -244,6 +244,15 @@ footer .social-icons p {
   align-items: center;
 }
 
+footer .social-icons i {
+	font-size: 1.3125em;
+  border-color: #527158;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 50%;
+  background-color: #527158;
+}
+
 footer .copyright {
   margin: 20px 0;
 }
